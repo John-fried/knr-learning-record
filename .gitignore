@@ -5,6 +5,7 @@ a.out
 *.swo
 *.swp
 *~
+*un~
 /tmp
 
 .DS_Store

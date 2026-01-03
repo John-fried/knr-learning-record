@@ -64,9 +64,10 @@ cat <<EOF > "$FILENAME"
 
 /* Include something here */
 
-int main() {
-    /* Code goes here */
-    return 0;
+int main()
+{
+	/* Code goes here */
+	return 0;
 }
 EOF
 

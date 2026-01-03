@@ -1,0 +1,11 @@
+Char sebenarnya adalah integer 1 byte yang 
+digunakan untuk menyimpan nilai ASCII karakter. 
+Dalam bahasa C, char adalah tipe data integer 
+yang berukuran 1 byte, yang dapat menyimpan nilai 
+antara -128 hingga 127 (untuk char signed)
+atau 0 hingga 255 (untuk char unsigned). Nilai-nilai ini 
+kemudian dapat diinterpretasikan sebagai karakter ASCII, 
+seperti 'a' memiliki nilai ASCII 97 dan 'A' memiliki nilai ASCII 65. 
+Jadi, char sebenarnya adalah integer 1 byte yang 
+digunakan untuk menyimpan nilai ASCII karakter, 
+bukan tipe data khusus untuk karakter.

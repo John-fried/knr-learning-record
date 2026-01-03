@@ -1,0 +1,16 @@
+Konstan simbolik bukanlah variabel.
+
+Nama konstan simbolik diharuskan ditulis dengan
+nama UPPER CASE atau KAPITAL, jadi.. konstan simbolik
+dapat dengan mudah dibedakan dengan variabel atau nama
+variabel.
+
+Konstan simbolik memiliki format:
+
+#define name replacement
+
+Kenapa replacement? dikarenakan Compiler terlebih dahulu
+akan mengganti yang menggunakanya (replacemnt)
+dengan nilai asli dari definisi konstan simbolik.
+
+~ SRC: 1-4 Symbolic Constant

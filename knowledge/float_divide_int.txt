@@ -1,0 +1,6 @@
+Jika operasi aritmatika seperti ini:
+
+	FLOAT <op> INT
+
+Maka INT akan otomatis diubah oleh Compiler
+menjadi Float (menambah precision INT.0)

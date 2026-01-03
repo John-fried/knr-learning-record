@@ -1,0 +1,13 @@
+Dulu bisa pakai:
+	a.out
+Tanpa memerlukan path relatif ./
+
+kenapa? karena dulu unix secara otomatis mengatur env $PATH
+ke cwd jadi bisa a.out tanpa ./ path relatif
+
+tapi sekarang harus eksplisit
+
+atau bisa dengan menambah ke:
+```
+export PATH=".:$PATH"
+```

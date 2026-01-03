@@ -1,0 +1,20 @@
+[Normal format]
+%[argument$][flags][width][.precision][length modifier]conversion
+
+[Format: Width]
+
+Contoh:
+
+printf("%3d %6d", fahr, celcius);
+
+[Format: Precision]
+
+Contoh Float:
+
+printf("%3.0d %6.1d");
+
+%3.0d: Tampilkan dengan 3 width dengan presisi .0 (Jangan tampilkan
+	Nilai desimal selanjutnya)
+
+%6.1d: Tampilkan dengan 6 width dengan presisi .1 (Tampilkan Hanya
+	1 desimal)

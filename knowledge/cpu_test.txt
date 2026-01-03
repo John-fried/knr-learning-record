@@ -1,0 +1,15 @@
+Setiap kondisi (condition) seperti:
+
+	While, for, if-else, dsb.
+
+Yang memiliki kurung-tutup (parenthses) atau kondisi
+itu juga memakai CPU
+
+Kenapa? karena cara kerjanya itu begini:
+
+Setiap kondisi akan di-test, jika hasilnya benar
+(true) maka eksekusi pernyataan akan dimulai
+(statement execution)
+
+Itu sebabnya setiap test juga memakai cpu,
+misalnya while loop

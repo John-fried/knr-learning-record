@@ -1,0 +1,11 @@
+*.o
+*.a
+*.so
+a.out
+*.swo
+*.swp
+*~
+/tmp
+
+.DS_Store
+Thumbs.db

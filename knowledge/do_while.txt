@@ -1,0 +1,8 @@
+While (condition) { ... }
+
+Akan: Test dulu kondisi baru jalankan badan
+
+Do { ... } while (condition)
+
+Akan: Jalankan dulu, kemudian test kondisi sebelum
+	menjalankan ulang

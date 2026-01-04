@@ -18,6 +18,8 @@ int main()
 	while ((c = getchar()) != EOF) {
 		if (c == '\n')
 			lt++;
+
+		printf("\"%c\": %d\n", c, c);
 	}
 
 	printf("Newline Total: %d\n", lt);

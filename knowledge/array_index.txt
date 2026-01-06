@@ -1,0 +1,10 @@
+[Array Index]
+
+Jadi kalau ada pengecekan kondisi seperti contoh:
+
+	if (!array[1])
+
+Pengecekan kondisi tersebut tak akan pernah sukses.
+Kenapa?, dikarenakan akses array index atau ke memory
+yang tidak ada itu akan menghasilkan angka random
+bukan angka 0 atau null.

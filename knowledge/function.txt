@@ -1,0 +1,28 @@
+[Function Declarations]
+
+	return-type function-name(parameter declarations, if any)
+	{
+		declarations
+		statement
+	}
+
+: Function stack
+	A function have their own stack memory,
+	so they have its own local variable that
+	can't be accessed with another function/statement/expression
+
+[Return statement/expression]
+if the function have a return-type (eg. non-void), the return
+statement will be like this:
+
+	return expression;
+
+? Does return statement is required
+	No, a function declaration need not to return a value;
+	a return statement with no expression causes control,
+	but no useful value to be returned to the caller,
+	:
+		just terminate a function with right brace
+	: no return statement
+		you may get warning, but the code still
+		can run

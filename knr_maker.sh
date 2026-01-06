@@ -36,7 +36,7 @@ while [[ "$#" -gt 0 ]]; do
     esac
 done
 
-FILENAME="c${CHAPTER}_s${SECTION}_e${EXERCISE}_${NAME}.c"
+FILENAME="chapter${CHAPTER}/c${CHAPTER}_s${SECTION}_e${EXERCISE}_${NAME}.c"
 DATE=$(date +"%Y-%m-%d %H:%M:%S")
 
 read -p "Save as $FILENAME? (Y/n): " CONFIRM
@@ -50,6 +50,7 @@ if [ "$HAS_EXERCISE" = true ]; then
     EX_INFO="${CHAPTER}-${EXERCISE} | ${DESCRIPTION}"
 fi
 
+mkdir chapter${CHAPTER}/
 cat <<EOF > "$FILENAME"
 /**
  * K&R The C Programming Language.

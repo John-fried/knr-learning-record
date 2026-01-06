@@ -1,0 +1,9 @@
+[TEXT STREAM]
+
+INPUT BUFFER —> TERMINATOR or \n (newline)
+	—> Text Stream.
+
+:
+	getchar takes 1 character in text stream
+	, only one, taking the next character if
+	called again.

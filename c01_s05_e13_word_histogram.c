@@ -46,7 +46,7 @@ int main()
 
 	for (i = 1; i <= MAX_LENGTH; ++i) {
 		j = 1;
-		printf("%d - %d: ", i, wl[i]);
+		printf("%d | %d: ", i, wl[i]);
 
 		while (j <= wl[i]) {
 			printf("#");
